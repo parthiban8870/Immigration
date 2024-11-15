@@ -1,0 +1,32 @@
+.reviews-container {  
+    display: flex;                /* Enable flexbox */  
+    flex-direction: column;      /* Arrange items in a column */  
+    align-items: center;         /* Horizontally center the cards */  
+    justify-content: center;      /* Optional: Vertically center, useful if you have height set */  
+    padding: 20px;  
+    background-color: #333;  
+  }  
+  .reviews-container h2{
+    color:white;
+  }
+  .reviews {  
+    display: flex; /* Flexbox for side-by-side reviews */  
+    justify-content: space-between; /* Space between reviews */  
+  }  
+  
+  .review-card {  
+    flex: 1; /* Each card takes equal space */  
+    margin: 10px; /* Space around each review */  
+    border: 1px solid #333;  
+    border-radius: 5px;  
+    padding: 15px;  
+    background-color: #f9f9f9; /* Background color for better contrast */  
+  }
+  
+  
+  
+  .rating {  
+    color: gold;  
+    font-size: 1.1em;  
+  }
+  

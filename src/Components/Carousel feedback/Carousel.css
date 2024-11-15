@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.body{
+    height: 100vh;
+    background-image: url(../../Assets/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(22, 21, 21, 0.7);
+}
+
+.head{
+    position: absolute;
+    top: 150px;
+    left:50px;
+    color:white;
+    z-index: 1;
+    text-align: left;
+
+}
+.head h4{
+    color: rgb(60, 140, 245);
+}
+
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.carousel-control-prev-icon{
+    background-image: none !important;
+
+} 
+.carousel-indicators{
+    display: none !important;
+}
+
+.carousel-control-next-icon{
+    background-image: none !important;
+
+}

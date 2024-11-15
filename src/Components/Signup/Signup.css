@@ -1,0 +1,83 @@
+/* Container for the form */
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f4f7f; /* Your preferred color */
+}
+
+/* Form styles */
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Input focus */
+.signup-container input:focus {
+  border-color: #2f4f7f;
+}
+
+/* Button styles */
+.signup-container button {
+  background-color: #2f4f7f; /* Your preferred color */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #1c3658; /* Darker shade on hover */
+}
+
+/* Message styles */
+.signup-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: red; /* For error or success messages */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+  .signup-container {
+      width: 90%;
+      margin: 20px auto;
+      padding: 15px;
+  }
+
+  .signup-container h2 {
+      font-size: 22px;
+  }
+
+  .signup-container button {
+      font-size: 14px;
+  }
+}

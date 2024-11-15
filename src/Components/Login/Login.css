@@ -1,0 +1,58 @@
+/* Container styling for centering the login form */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Styling for the auth card */
+.auth-card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 2rem; /* Padding inside the card */
+  max-width: 400px; /* Maximum width of the card */
+  width: 100%; /* Full width within the max width */
+}
+
+/* Header styling inside the auth card */
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  color: #2F4F7F; /* Primary color for headings */
+  text-align: center; /* Center align the heading */
+}
+
+/* Styling for form control elements */
+.auth-card .form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  box-shadow: none; /* Remove default box shadow */
+  border: 1px solid #ced4da; /* Border color */
+  margin-bottom: 1rem; /* Margin below inputs */
+}
+
+/* Styling for the submit button */
+.auth-card .btn {
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners for the button */
+  padding: 0.75rem; /* Padding inside the button */
+  background-color: #2F4F7F; /* Primary button color */
+  color: #ffffff; /* Text color for the button */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.auth-card .btn:hover {
+  background-color: #1c3b6b; /* Darker shade for hover effect */
+}
+
+/* Styling for the link inside the alert */
+.auth-card .alert a {
+  color: #2F4F7F; /* Primary color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.auth-card .alert a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

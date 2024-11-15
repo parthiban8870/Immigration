@@ -1,0 +1,17 @@
+/* MainComponent.css */  
+.main-container {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 20px;  
+}  
+
+.review-form {  
+    margin-right: 20px;  
+    flex: 1; /* Allow the ReviewForm to take up available space */  
+    /* You can add more styles here */  
+}  
+
+.rating-card {  
+    flex: 1; /* Allow the RatingCard to take up available space */  
+    /* You can add more styles here */  
+}

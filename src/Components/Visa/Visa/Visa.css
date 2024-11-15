@@ -1,0 +1,103 @@
+.h4{
+  background-color: rgb(21, 4, 47);
+  color: white;
+}
+
+.h5{
+  background-color: rgb(250, 209, 160);
+}
+
+#card-1{
+  width: 30vh;
+  height: 30vh;
+  margin-top: 50px;
+  margin-left: -70px;
+}
+
+#card-2{
+  width: 35vh;
+  height: 35vh;
+  margin-top: 32px;
+  margin-left: -80px;
+}
+
+#card-3{
+  width: 40vh;
+  height: 40vh;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+
+#card-4{
+  width: 35vh;
+  height: 35vh;
+  margin-top: 32px;
+  margin-left: 40px;
+}
+
+#card-5{
+  width: 30vh;
+  height: 30vh;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+
+/* General card styling */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Optional: You can add hover effect to the card title as well */
+.card-title {
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+  color: rgb(197, 169, 8); /* Change the title color on hover */
+}
+
+/* Center card content */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  /* Center the text */
+  height: 100%;  /* Make the card body fill the height */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add background image to the section */
+#education {
+  background-image: url('./visa-B.jpg');  /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(16, 13, 13);
+  padding: 60px 0; 
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Make the card slightly transparent */
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+}
